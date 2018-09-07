@@ -41,7 +41,7 @@ div {
  p,h1{
      margin-bottom: 25px;
  }
- @media(max-width:768px){
+ @media screen and (max-width:768px){
  h1{
    font-size: 5vw;
  }
@@ -49,16 +49,31 @@ div {
   font-size: 4vw;
  }
  }
- @media(max-width: 632px){
- button{
-   position: relative;
-   margin-left: -20px;
-   top: -60px;
-   left: 45%;
-   
- }
+ @media screen and (max-width: 632px){
+  button{
+    position: relative;
+    margin-left: -10px;
+    top: -56px;
+    left: 60%;
+    
+  }
    input{
-     font-size: 12px;
+   font-size: 12px;    
    }
+  
+ }
+
+ @media screen and (max-width: 360px){
+  button{
+    position: relative;
+    margin-left: -10px;
+    top: -56px;
+    left: 50%;
+    
+  }
+  input{
+    position: relative;
+    left: -20px;
+  }
  }
  
