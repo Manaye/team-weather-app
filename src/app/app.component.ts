@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class AppComponent implements OnInit {
+  title = 'team-weather-app';
    applyNightBackground() {
     const currentHour = new Date().getHours();
     
